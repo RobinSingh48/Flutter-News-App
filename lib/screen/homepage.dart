@@ -14,7 +14,7 @@ class Homepage extends StatefulWidget {
 
 class _HomepageState extends State<Homepage> {
 
-   String apiKey = "d60fb0c54dea467f9c06b3cfb062e31b";
+   String apiKey = "your apikey";
   
   List<Newmodel> newsData = [];
   Future<List<Newmodel>> getData()async{
